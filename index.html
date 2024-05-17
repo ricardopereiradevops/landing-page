@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bagaggio - Viaje com Estilo</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Bagaggio</div>
+        <ul>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="banner">
+      <div class="banner-content">
+        <h1>Viaje com Estilo</h1>
+        <p>Descubra as melhores malas e acessórios na Bagaggio.</p>
+        <a href="#produtos" class="btn">Ver Produtos</a>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <h2 class="product">Sobre Nós</h2>
+        <p>
+          A Bagaggio é líder no mercado de malas e acessórios de viagem,
+          oferecendo qualidade e estilo para os viajantes mais exigentes.
+        </p>
+      </div>
+    </section>
+
+    <section id="produtos">
+      <div class="container">
+        <h2 class="product">Nossos produtos</h2>
+        <div class="product-card">
+          <img src="./img/mala-oslo.jpg" alt=" mala de bordo oslo" />
+          <h3>Mala de Bordo em ABS Com 4 Rodas 360 - Oslo (Rose)</h3>
+          <ul class="lista">
+            <li>Mala de Bordo em ABS</li>
+            <li>Rodas com giro de 360º</li>
+            <li>Cadeado embutido</li>
+            <li>Material de alta qualidade</li>
+          </ul>
+          <a href="#contato" class="botao">Preço sob Consulta</a>
+        </div>
+        <div class="product-card">
+          <img src="./img/mala-yins.jpg" alt="mala de viagem yins" />
+          <h3>Mala de Viagem Yin's Pequena em Abs Rodas 360º - Cinza</h3>
+          <ul class="lista">
+            <li>Mala em ABS</li>
+            <li>Material de alta qualidade</li>
+            <li>Cadeado acoplado</li>
+            <li>Rodas com giro 360º</li>
+          </ul>
+          <a href="#contato" class="botao">Preço sob Consulta</a>
+        </div>
+        <div class="product-card">
+          <img src="./img/mala-maldivas.jpg" alt="Mala de Bordo Maldivas" />
+          <h3>Mala De Bordo Polipropileno Padrão Anac 10kgs Maldivas</h3>
+          <ul class="lista">
+            <li>Material em Polipropileno</li>
+            <li>Alça de mão Retrátil</li>
+            <li>Rodas com giro 360º</li>
+            <li>Cadeado acoplado</li>
+          </ul>
+          <a href="#contato" class="botao">Preço sob Consulta</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <form action="#" method="post" class="form">
+          <h2>Entre em contato</h2>
+          <p>
+            Tem alguma pergunta ou precise de ajuda? Entre em contato conosco.
+          </p>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            cols="30"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit" class="botao">Enviar Mensagem</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 Bagaggio. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
